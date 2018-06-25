@@ -1,0 +1,26 @@
+{
+	"name": "outside-cli",
+	"version": "1.0.0",
+	"description": "A CLI app that gives you the weather forecast",
+	"license": "MIT",
+	"bin": {
+		"outside": "bin/outside"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"keywords": [
+		"weather",
+		"forecast",
+		"rain",
+		"sunshine"
+	],
+	"preferGlobal": true,
+	"scripts": {},
+	"devDependencies": {},
+	"dependencies": {
+		"axios": "^0.18.0",
+		"minimist": "^1.2.0",
+		"ora": "^2.1.0"
+	}
+}
